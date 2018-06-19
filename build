@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+if [ -d ./html/site ]; then
+	rm -rf ./html/site
+fi
+
+mkdir ./html/site
+
+for i in $(find ./content -type d -name "img"); do
+	for j in $(ls $i); do
+		cp $i/$j ./html/img/"${j}"
+	done
+done
+
+for i in $(find ./content -type f -name "*.text"); do
+	echo $i
+	ofname=$(echo $i | rev | cut -d'/' -f1 | rev | sed -e "s/text/html/g") 
+	pandoc -s --css=../css/main.css -t html -f rst $i -o ./html/site/"${ofname}"
+done
