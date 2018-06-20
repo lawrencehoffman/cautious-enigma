@@ -20,8 +20,8 @@ What can we do about it though? Not much. Be proactive, keep
 strong unique passphrases, and occasionally do a quick check
 of our security hygiene.
 
-.. _"Have I Been Pwned?": https://haveibeenpwned.com
+.. _haveibeenpwned: https://haveibeenpwned.com
 
-Head over to `Have I Been Pwned`_ and type in the email
+Head over to haveibeenpwned_ and type in the email
 address you've been using. The site will tell you if your
 email has been leaked, and where.
