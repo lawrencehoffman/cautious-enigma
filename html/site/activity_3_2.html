@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Generate a Passphrase</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="../css/main.css">
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header>
+<h1 class="title">Generate a Passphrase</h1>
+</header>
+<h1 id="guiding-question">Guiding Question</h1>
+<ul>
+<li>We're about to generate a big passphrase for our ProtonMail account. This is going to mean that we'll now longer actually know the passphrase for that account. Thinking like an attacker, given a system where users rely on a third party application to login, does attacking this system get easier, or harder?</li>
+</ul>
+<h1 id="use-lastpass-to-generate-passphrases">Use LastPass to Generate Passphrases</h1>
+<p>Let's set a yet more secure passphrase for our ProtoMail account.</p>
+<p>Head over to <a href="https://protonmail.comm">ProtonMail</a> and login, LastPass should have your credentials for this, and should log you in. If LastPass does not automatically fill in your username and passphrase, click either of the icons in the username and passphrase box and select you account from the list (which should only have one.) Then click the LOGIN button.</p>
+<p><img src="../img/gp001.png" alt="image" /></p>
+<p>Having logged in with LastPass, let's change the password on our burner email to something which cannot be brute forced before the heat death of the internet.</p>
+<p>Click on the &quot;Settings&quot; gears at the top right of the page that.</p>
+<p><img src="../img/gp002.png" alt="image" /></p>
+<p>Once on the settings page, look low and left for a section of your settings labeled &quot;Password&quot; and click on the &quot;CHANGE PASSWORD&quot; button.</p>
+<p><img src="../img/gp003.png" alt="image" /></p>
+<p>ProtonMail wants to be sure that only you change your passprhase, so prompts for you to input your passphrase, again LastPass should do this for you. Hit &quot;SUBMIT.&quot;</p>
+<p><img src="../img/gp004.png" alt="image" /></p>
+<p>Note the arrow spinning around a Padlock icon to the right of the text fields for your new passphrase? Click either one (preferably the top, sometimes when you click the bottom one it fails to fill in both.)</p>
+<p><img src="../img/gp005.png" alt="image" /></p>
+<p>This opens the &quot;Generate password&quot; dialogue from LastPass. Let's click on the &quot;More options&quot; button and have a look at what other options we have here.</p>
+<p><img src="../img/gp006.png" alt="image" /></p>
+<p>Alright, so here's the window that gives us a bunch of options for how LastPass is going to generate this passphrase. I'll do some explaining.</p>
+<p><img src="../img/gp007.png" alt="image" /></p>
+<ol>
+<li>This group of checkboxes determines what types of characters your password will have. Some sites will require the use of a mix of these, others don't care so long as it's long enough. Ocassionally you'll find a site that disallows symbols, this probably means the site was put together by amatures. Let's click them all for this passphrase.</li>
+<li>The desired length. Because ProtonMail is doing their security correctly, you can input a password as long as you like. It seems that 100 characters is the max LastPass will give you, and that's more than enough to keep the password safe all the way through the early days of quantum computing.</li>
+<li>This is the password that has been generated. It's shown in the clear, and if someone looks over your shoulder and sees it, that's fine. If they memorize what's there in the time it's there, we've got other problems.</li>
+<li>These options are great if you are generating a passphrase that you need to share with someone. Ideally if you needed to share it, you'd want to use LastPass's share feature, but many people are not using LastPass.</li>
+</ol>
+<p>When you've got a passphrase you like, click the &quot;Fill&quot; button.</p>
+<p>You should now see both the &quot;New Password&quot; and &quot;Confirm Password&quot; fields filled in. Hit the &quot;SAVE&quot; button on the bottom right.</p>
+<p><img src="../img/gp008.png" alt="image" /></p>
+<p>Almost as soon as that button goes down, LastPass should pop a notification letting you know that it saw you reset the passphrase, if you hit the &quot;OK&quot; button on this notification your old passphrase will go away, and LastPass will use the new passphrase to log you into ProtonMail.</p>
+<p><img src="../img/gp009.png" alt="image" /></p>
+<p>Congratulations! You're on the road to becoming the hardest target, the fruit at the top of the tree, the Fort Knox of data about you!</p>
+</body>
+</html>

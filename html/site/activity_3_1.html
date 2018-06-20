@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Passphrase Management</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="../css/main.css">
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header>
+<h1 class="title">Passphrase Management</h1>
+</header>
+<h1 id="guiding-question">Guiding Question</h1>
+<ul>
+<li>The holy grail of secure passphrases is a long random string, but those are hard to remember. Passphrase managers exist to securely create and maintain passphrases, but they lead to a new problem, now all of your passphrases are stored in one place, if someone obtains access, they have <em>everything</em>. Think of some ways we could manage to steal this passphrase.</li>
+</ul>
+<h1 id="setting-up-lastpass">Setting Up LastPass</h1>
+<p>LastPass is a browser extension and phone application that will generate secure passphrases for you, and fill them in when you go to a site for which LastPass has your credentials.</p>
+<p>We'll start off by heading over to the <a href="https://lastpass.com">LastPass</a> site, where if you've not already installed the add on you'll be offered to do so.</p>
+<p>Click the button to get LastPass installed in your browser as an add on.</p>
+<p><img src="../img/lp001.png" alt="image" /></p>
+<p>Your browser is likely going to attempt to stop LastPass from adding itself to the browser's add on list. We'll want to Allow this time.</p>
+<p><img src="../img/lp002.png" alt="image" /></p>
+<p>Now you should get a dialogue warning of how many things this application is able to see. LastPass has been vetted by many security professionals, we can choos Add here.</p>
+<p><img src="../img/lp003.png" alt="image" /></p>
+<p>LastPass should have installed itself into the browser we should now have an icon to the right of our addressbar that looks like three dots with a line to the right of them. The icon may be hiding under the add ons drop down menu as it was on mine.</p>
+<p>Click the LastPass Icon</p>
+<p><img src="../img/lp004.png" alt="image" /></p>
+<p>This opens a dialogue window, at the bottom you'll see a button to Create a LastPass account. Click that.</p>
+<p><img src="../img/lp005.png" alt="image" /></p>
+<p>Fill in the burner email account that we created yesterday here (you do remember your passphrase, right?) and click the Create Account button to continue.</p>
+<p><img src="../img/lp006.png" alt="image" /></p>
+<p>Time to make a good passphrase! Make sure that this one is really strong, not only is it protecting your everything, but when we're done here it will be the only passphrase you need to remember.</p>
+<p><strong>NOTE</strong> If you forget this passphrase, you can <em>never</em> get your data back. It's actually encrypted, that's a one way road if you forget the passphrase.</p>
+<p><img src="../img/lp007.png" alt="image" /></p>
+<p>Input your new passphrase again so that LastPass can confirm that you didn't have a type the first time.</p>
+<p><strong>Reminder</strong> I never fill these in, when the Adobe database leaked it was the reminders (which were not encrypted) that lead to the ability to crack most of Adobe's passwords.</p>
+<p>When you're sure you've got a good passphrase you can remember forever, click Unlock my Vault.</p>
+<p><img src="../img/lp008.png" alt="image" /></p>
+<p>Success! You now have a passphrase manager. Click the Add Site button and let's go add our burner email account to LastPass.</p>
+<p><img src="../img/lp009.png" alt="image" /></p>
+<p>A dialogue should open showing where we can fill in the information necessary to log into ProtonMail. When you're done here hit Save, then navigate back to <a href="https://protonmail.com">ProtonMail</a> and LastPass should automatically fill in your credentials!</p>
+<p><img src="../img/lp011.png" alt="image" /></p>
+<p>Now that we have a LastPass account set up, let's return to that question from the start of the exercise, how is our LastPass account still vulnerable? How can we fix it?</p>
+</body>
+</html>

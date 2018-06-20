@@ -1,0 +1,28 @@
+Passphrase Management
+=====================
+
+Guiding Question
+----------------
+
+* The holy grail of secure passphrases is a long random string,
+  but those are hard to remember. Passphrase managers exist to
+  securely create and maintain passphrases, but they lead to a
+  new problem, now all of your passphrases are stored in one
+  place, if someone obtains access, they have *everything*.
+  Think of some ways we could add another layer of security to
+  our passphrase management systems.
+
+Setting Up LastPass
+-------------------
+
+.. img:: ../img/lp001.png
+.. img:: ../img/lp002.png
+.. img:: ../img/lp003.png
+.. img:: ../img/lp004.png
+.. img:: ../img/lp005.png
+.. img:: ../img/lp006.png
+.. img:: ../img/lp007.png
+.. img:: ../img/lp008.png
+.. img:: ../img/lp009.png
+.. img:: ../img/lp010.png
+.. img:: ../img/lp011.png
